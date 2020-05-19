@@ -24,5 +24,8 @@ BackEnd - JavA with Spring Boot;
 ## TDD - Test unit with JUnit
 - H2DataBase was used to simulate the database
 
+## API
+- Api was documented with swagger-ui for to facilitate testing
+
 ![Swagger-ui](https://user-images.githubusercontent.com/35642316/82368997-56701280-99e4-11ea-9b63-58cb66a5135d.png)
 
