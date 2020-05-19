@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+
+  backend:
+    image: 'maven:3-jdk-8-alpine'
+    volumes:
+     - ./smart-back-end:/app/
+    command: mvn clean spring-boot:run
+    working_dir: /app
+    ports:
+     - 8080:8080
